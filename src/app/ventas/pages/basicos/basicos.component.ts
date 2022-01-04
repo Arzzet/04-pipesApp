@@ -8,11 +8,10 @@ import { PrimeNgModule } from '../../../prime-ng/prime-ng.module';
   styles: [
   ]
 })
-export class BasicosComponent implements OnInit {
+export class BasicosComponent  {
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
+  nombreLower: string = 'iwo';
+  nombreUpper: string = 'IWO';
+  nombreCompleto: string = 'iwO przyByszEWski';
 
 }
