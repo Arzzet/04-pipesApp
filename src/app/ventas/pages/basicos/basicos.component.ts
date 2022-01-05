@@ -14,4 +14,6 @@ export class BasicosComponent  {
   nombreUpper: string = 'IWO';
   nombreCompleto: string = 'iwO przyByszEWski';
 
+  fecha: Date = new Date();
+
 }
