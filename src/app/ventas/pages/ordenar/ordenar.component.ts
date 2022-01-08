@@ -9,6 +9,9 @@ import { Color, Friden } from '../../interfaces/ventas.interfaces';
 })
 export class OrdenarComponent {
   enMayusculas: boolean = true;
+
+  orderBy: string = '';
+
   fridens: Friden[] = [
     {
       nombre: 'Andrew',
@@ -54,6 +57,11 @@ export class OrdenarComponent {
 
   cambiar() {
     this.enMayusculas = !this.enMayusculas;
+  }
+
+  cambiarOrden(valor: string){
+    this.orderBy = valor;
+    console.log(valor);
   }
 
 }

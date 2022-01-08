@@ -24,6 +24,7 @@ import {TableModule} from 'primeng/table';
     TableModule
   ],
   imports: [
+    
   ]
 })
 export class PrimeNgModule { }
